@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47ADCE46176A98F566868743 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AB7A8EE511B1E4F0D584BB /* Pods.framework */; };
+		F44395961CA65A3D0055FF21 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443958B1CA65A3D0055FF21 /* FeedViewController.swift */; };
+		F44395971CA65A3D0055FF21 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443958C1CA65A3D0055FF21 /* Instagram.swift */; };
+		F44395981CA65A3D0055FF21 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443958D1CA65A3D0055FF21 /* MainTabBarController.swift */; };
+		F44395991CA65A3D0055FF21 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443958E1CA65A3D0055FF21 /* MeViewController.swift */; };
+		F443959A1CA65A3D0055FF21 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443958F1CA65A3D0055FF21 /* Photo.swift */; };
+		F443959B1CA65A3D0055FF21 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44395901CA65A3D0055FF21 /* PhotosViewController.swift */; };
+		F443959C1CA65A3D0055FF21 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44395911CA65A3D0055FF21 /* PopularViewController.swift */; };
+		F443959D1CA65A3D0055FF21 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44395921CA65A3D0055FF21 /* SearchViewController.swift */; };
+		F443959E1CA65A3D0055FF21 /* ViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44395931CA65A3D0055FF21 /* ViewerViewController.swift */; };
+		F44395A01CA65A860055FF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F443959F1CA65A860055FF21 /* Assets.xcassets */; };
+		F44395A81CA65AFA0055FF21 /* tab_feed.png in Resources */ = {isa = PBXBuildFile; fileRef = F44395A21CA65AFA0055FF21 /* tab_feed.png */; };
+		F44395A91CA65AFA0055FF21 /* tab_feed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44395A31CA65AFA0055FF21 /* tab_feed@2x.png */; };
+		F44395AA1CA65AFA0055FF21 /* tab_me.png in Resources */ = {isa = PBXBuildFile; fileRef = F44395A41CA65AFA0055FF21 /* tab_me.png */; };
+		F44395AB1CA65AFA0055FF21 /* tab_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44395A51CA65AFA0055FF21 /* tab_me@2x.png */; };
+		F44395AC1CA65AFA0055FF21 /* tab_popular.png in Resources */ = {isa = PBXBuildFile; fileRef = F44395A61CA65AFA0055FF21 /* tab_popular.png */; };
+		F44395AD1CA65AFA0055FF21 /* tab_popular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F44395A71CA65AFA0055FF21 /* tab_popular@2x.png */; };
+		F4540AF81CB0D7F900F02A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4540AF71CB0D7F900F02A18 /* ViewController.swift */; };
+		F47F22821CA75707004CA8D1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F22811CA75707004CA8D1 /* ResultViewController.swift */; };
+		F493A80B1CA66B00001CB99C /* tab_search.png in Resources */ = {isa = PBXBuildFile; fileRef = F493A8091CA66B00001CB99C /* tab_search.png */; };
+		F493A80C1CA66B00001CB99C /* tab_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F493A80A1CA66B00001CB99C /* tab_search@2x.png */; };
+		F493A80E1CA66E99001CB99C /* LoadingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493A80D1CA66E99001CB99C /* LoadingProxy.swift */; };
+		F4E4345B1CA65721004E4AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E4345A1CA65721004E4AFB /* AppDelegate.swift */; };
+		F4E434651CA65721004E4AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E434631CA65721004E4AFB /* LaunchScreen.storyboard */; };
+		F4E434701CA65721004E4AFB /* StagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E4346F1CA65721004E4AFB /* StagramTests.swift */; };
+		F4E4347B1CA65722004E4AFB /* StagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E4347A1CA65722004E4AFB /* StagramUITests.swift */; };
+		F4EECA451CB13FFA001DDCAA /* Key.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EECA441CB13FFA001DDCAA /* Key.plist */; };
+		F4F1EE091CBBF114006DF2D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F1EE081CBBF114006DF2D2 /* User.swift */; };
+		F4FC61EC1CB4DD5F001ED456 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC61EB1CB4DD5F001ED456 /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E4346C1CA65721004E4AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E4344F1CA65721004E4AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E434561CA65721004E4AFB;
+			remoteInfo = Stagram;
+		};
+		F4E434771CA65722004E4AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E4344F1CA65721004E4AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E434561CA65721004E4AFB;
+			remoteInfo = Stagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A178B657F09D93557A99C38 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		63AB7A8EE511B1E4F0D584BB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5AA97723B09CC91BD8D4A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F443958B1CA65A3D0055FF21 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F443958C1CA65A3D0055FF21 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
+		F443958D1CA65A3D0055FF21 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F443958E1CA65A3D0055FF21 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		F443958F1CA65A3D0055FF21 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F44395901CA65A3D0055FF21 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		F44395911CA65A3D0055FF21 /* PopularViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		F44395921CA65A3D0055FF21 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F44395931CA65A3D0055FF21 /* ViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerViewController.swift; sourceTree = "<group>"; };
+		F443959F1CA65A860055FF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44395A21CA65AFA0055FF21 /* tab_feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_feed.png; path = Images/tab_feed.png; sourceTree = "<group>"; };
+		F44395A31CA65AFA0055FF21 /* tab_feed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_feed@2x.png"; path = "Images/tab_feed@2x.png"; sourceTree = "<group>"; };
+		F44395A41CA65AFA0055FF21 /* tab_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_me.png; path = Images/tab_me.png; sourceTree = "<group>"; };
+		F44395A51CA65AFA0055FF21 /* tab_me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_me@2x.png"; path = "Images/tab_me@2x.png"; sourceTree = "<group>"; };
+		F44395A61CA65AFA0055FF21 /* tab_popular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_popular.png; path = Images/tab_popular.png; sourceTree = "<group>"; };
+		F44395A71CA65AFA0055FF21 /* tab_popular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_popular@2x.png"; path = "Images/tab_popular@2x.png"; sourceTree = "<group>"; };
+		F4540AF61CB0A62A00F02A18 /* Stagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stagram-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F4540AF71CB0D7F900F02A18 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F47F22811CA75707004CA8D1 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		F493A8091CA66B00001CB99C /* tab_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_search.png; path = Images/tab_search.png; sourceTree = "<group>"; };
+		F493A80A1CA66B00001CB99C /* tab_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tab_search@2x.png"; path = "Images/tab_search@2x.png"; sourceTree = "<group>"; };
+		F493A80D1CA66E99001CB99C /* LoadingProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingProxy.swift; sourceTree = "<group>"; };
+		F4E434571CA65721004E4AFB /* Stagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E4345A1CA65721004E4AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E434641CA65721004E4AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E434661CA65721004E4AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E4346B1CA65721004E4AFB /* StagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E4346F1CA65721004E4AFB /* StagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagramTests.swift; sourceTree = "<group>"; };
+		F4E434711CA65721004E4AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E434761CA65722004E4AFB /* StagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E4347A1CA65722004E4AFB /* StagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagramUITests.swift; sourceTree = "<group>"; };
+		F4E4347C1CA65722004E4AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EECA441CB13FFA001DDCAA /* Key.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Key.plist; sourceTree = "<group>"; };
+		F4F1EE081CBBF114006DF2D2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F4FC61EB1CB4DD5F001ED456 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E434541CA65721004E4AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ADCE46176A98F566868743 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E434681CA65721004E4AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E434731CA65722004E4AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B3DF39BF1E25EB96A23450B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63AB7A8EE511B1E4F0D584BB /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94415A2DE4DB29AD0D551CB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5AA97723B09CC91BD8D4A9 /* Pods.debug.xcconfig */,
+				3A178B657F09D93557A99C38 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F44395A11CA65AB00055FF21 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F493A8091CA66B00001CB99C /* tab_search.png */,
+				F493A80A1CA66B00001CB99C /* tab_search@2x.png */,
+				F44395A21CA65AFA0055FF21 /* tab_feed.png */,
+				F44395A31CA65AFA0055FF21 /* tab_feed@2x.png */,
+				F44395A41CA65AFA0055FF21 /* tab_me.png */,
+				F44395A51CA65AFA0055FF21 /* tab_me@2x.png */,
+				F44395A61CA65AFA0055FF21 /* tab_popular.png */,
+				F44395A71CA65AFA0055FF21 /* tab_popular@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F4E4344E1CA65721004E4AFB = {
+			isa = PBXGroup;
+			children = (
+				F44395A11CA65AB00055FF21 /* Images */,
+				F4E434591CA65721004E4AFB /* Stagram */,
+				F4E4346E1CA65721004E4AFB /* StagramTests */,
+				F4E434791CA65722004E4AFB /* StagramUITests */,
+				F4E434581CA65721004E4AFB /* Products */,
+				94415A2DE4DB29AD0D551CB0 /* Pods */,
+				6B3DF39BF1E25EB96A23450B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E434581CA65721004E4AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E434571CA65721004E4AFB /* Stagram.app */,
+				F4E4346B1CA65721004E4AFB /* StagramTests.xctest */,
+				F4E434761CA65722004E4AFB /* StagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E434591CA65721004E4AFB /* Stagram */ = {
+			isa = PBXGroup;
+			children = (
+				F443958C1CA65A3D0055FF21 /* Instagram.swift */,
+				F4F1EE081CBBF114006DF2D2 /* User.swift */,
+				F443958F1CA65A3D0055FF21 /* Photo.swift */,
+				F493A80D1CA66E99001CB99C /* LoadingProxy.swift */,
+				F4FC61EB1CB4DD5F001ED456 /* WebViewController.swift */,
+				F443958D1CA65A3D0055FF21 /* MainTabBarController.swift */,
+				F4540AF71CB0D7F900F02A18 /* ViewController.swift */,
+				F44395901CA65A3D0055FF21 /* PhotosViewController.swift */,
+				F443958E1CA65A3D0055FF21 /* MeViewController.swift */,
+				F443958B1CA65A3D0055FF21 /* FeedViewController.swift */,
+				F44395911CA65A3D0055FF21 /* PopularViewController.swift */,
+				F44395921CA65A3D0055FF21 /* SearchViewController.swift */,
+				F47F22811CA75707004CA8D1 /* ResultViewController.swift */,
+				F44395931CA65A3D0055FF21 /* ViewerViewController.swift */,
+				F4E4345A1CA65721004E4AFB /* AppDelegate.swift */,
+				F4540AF61CB0A62A00F02A18 /* Stagram-Bridging-Header.h */,
+				F4E434631CA65721004E4AFB /* LaunchScreen.storyboard */,
+				F443959F1CA65A860055FF21 /* Assets.xcassets */,
+				F4E434661CA65721004E4AFB /* Info.plist */,
+				F4EECA441CB13FFA001DDCAA /* Key.plist */,
+			);
+			path = Stagram;
+			sourceTree = "<group>";
+		};
+		F4E4346E1CA65721004E4AFB /* StagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E4346F1CA65721004E4AFB /* StagramTests.swift */,
+				F4E434711CA65721004E4AFB /* Info.plist */,
+			);
+			path = StagramTests;
+			sourceTree = "<group>";
+		};
+		F4E434791CA65722004E4AFB /* StagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E4347A1CA65722004E4AFB /* StagramUITests.swift */,
+				F4E4347C1CA65722004E4AFB /* Info.plist */,
+			);
+			path = StagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E434561CA65721004E4AFB /* Stagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E4347F1CA65722004E4AFB /* Build configuration list for PBXNativeTarget "Stagram" */;
+			buildPhases = (
+				2D02FA7BF619ADE7B28041F1 /* Check Pods Manifest.lock */,
+				F4E434531CA65721004E4AFB /* Sources */,
+				F4E434541CA65721004E4AFB /* Frameworks */,
+				F4E434551CA65721004E4AFB /* Resources */,
+				7353F5C8F66534A70E40B91A /* Embed Pods Frameworks */,
+				2AE4363F0984428930CC1D53 /* Copy Pods Resources */,
+				F4EFC1881CBD5DA400EA64DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stagram;
+			productName = Stagram;
+			productReference = F4E434571CA65721004E4AFB /* Stagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E4346A1CA65721004E4AFB /* StagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E434821CA65722004E4AFB /* Build configuration list for PBXNativeTarget "StagramTests" */;
+			buildPhases = (
+				F4E434671CA65721004E4AFB /* Sources */,
+				F4E434681CA65721004E4AFB /* Frameworks */,
+				F4E434691CA65721004E4AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E4346D1CA65721004E4AFB /* PBXTargetDependency */,
+			);
+			name = StagramTests;
+			productName = StagramTests;
+			productReference = F4E4346B1CA65721004E4AFB /* StagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4E434751CA65722004E4AFB /* StagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E434851CA65722004E4AFB /* Build configuration list for PBXNativeTarget "StagramUITests" */;
+			buildPhases = (
+				F4E434721CA65722004E4AFB /* Sources */,
+				F4E434731CA65722004E4AFB /* Frameworks */,
+				F4E434741CA65722004E4AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E434781CA65722004E4AFB /* PBXTargetDependency */,
+			);
+			name = StagramUITests;
+			productName = StagramUITests;
+			productReference = F4E434761CA65722004E4AFB /* StagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E4344F1CA65721004E4AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dongri Jin";
+				TargetAttributes = {
+					F4E434561CA65721004E4AFB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6SRWK494FT;
+					};
+					F4E4346A1CA65721004E4AFB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F4E434561CA65721004E4AFB;
+					};
+					F4E434751CA65722004E4AFB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F4E434561CA65721004E4AFB;
+					};
+				};
+			};
+			buildConfigurationList = F4E434521CA65721004E4AFB /* Build configuration list for PBXProject "Stagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E4344E1CA65721004E4AFB;
+			productRefGroup = F4E434581CA65721004E4AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E434561CA65721004E4AFB /* Stagram */,
+				F4E4346A1CA65721004E4AFB /* StagramTests */,
+				F4E434751CA65722004E4AFB /* StagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E434551CA65721004E4AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F493A80B1CA66B00001CB99C /* tab_search.png in Resources */,
+				F44395AD1CA65AFA0055FF21 /* tab_popular@2x.png in Resources */,
+				F44395AA1CA65AFA0055FF21 /* tab_me.png in Resources */,
+				F44395A01CA65A860055FF21 /* Assets.xcassets in Resources */,
+				F44395A81CA65AFA0055FF21 /* tab_feed.png in Resources */,
+				F44395A91CA65AFA0055FF21 /* tab_feed@2x.png in Resources */,
+				F4EECA451CB13FFA001DDCAA /* Key.plist in Resources */,
+				F44395AB1CA65AFA0055FF21 /* tab_me@2x.png in Resources */,
+				F4E434651CA65721004E4AFB /* LaunchScreen.storyboard in Resources */,
+				F493A80C1CA66B00001CB99C /* tab_search@2x.png in Resources */,
+				F44395AC1CA65AFA0055FF21 /* tab_popular.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E434691CA65721004E4AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E434741CA65722004E4AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE4363F0984428930CC1D53 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02FA7BF619ADE7B28041F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7353F5C8F66534A70E40B91A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4EFC1881CBD5DA400EA64DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" f617b2af1ffa8e7d87f6ae3238991d72558b244e b125651be166c7c7f6b62a1d77a1b1792a1c3a6f238661de52bc44577677f7ac";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E434531CA65721004E4AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F443959D1CA65A3D0055FF21 /* SearchViewController.swift in Sources */,
+				F443959A1CA65A3D0055FF21 /* Photo.swift in Sources */,
+				F443959B1CA65A3D0055FF21 /* PhotosViewController.swift in Sources */,
+				F493A80E1CA66E99001CB99C /* LoadingProxy.swift in Sources */,
+				F44395991CA65A3D0055FF21 /* MeViewController.swift in Sources */,
+				F443959C1CA65A3D0055FF21 /* PopularViewController.swift in Sources */,
+				F44395971CA65A3D0055FF21 /* Instagram.swift in Sources */,
+				F44395981CA65A3D0055FF21 /* MainTabBarController.swift in Sources */,
+				F4540AF81CB0D7F900F02A18 /* ViewController.swift in Sources */,
+				F44395961CA65A3D0055FF21 /* FeedViewController.swift in Sources */,
+				F4E4345B1CA65721004E4AFB /* AppDelegate.swift in Sources */,
+				F4FC61EC1CB4DD5F001ED456 /* WebViewController.swift in Sources */,
+				F47F22821CA75707004CA8D1 /* ResultViewController.swift in Sources */,
+				F4F1EE091CBBF114006DF2D2 /* User.swift in Sources */,
+				F443959E1CA65A3D0055FF21 /* ViewerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E434671CA65721004E4AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E434701CA65721004E4AFB /* StagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E434721CA65722004E4AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E4347B1CA65722004E4AFB /* StagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E4346D1CA65721004E4AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E434561CA65721004E4AFB /* Stagram */;
+			targetProxy = F4E4346C1CA65721004E4AFB /* PBXContainerItemProxy */;
+		};
+		F4E434781CA65722004E4AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E434561CA65721004E4AFB /* Stagram */;
+			targetProxy = F4E434771CA65722004E4AFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E434631CA65721004E4AFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E434641CA65721004E4AFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E4347D1CA65722004E4AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E4347E1CA65722004E4AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E434801CA65722004E4AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5AA97723B09CC91BD8D4A9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Stagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongriab.ios.Stagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stagram-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E434811CA65722004E4AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A178B657F09D93557A99C38 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dongri Jin (6SRWK494FT)";
+				INFOPLIST_FILE = Stagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongriab.ios.Stagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stagram-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4E434831CA65722004E4AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongriab.ios.StagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stagram.app/Stagram";
+			};
+			name = Debug;
+		};
+		F4E434841CA65722004E4AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongriab.ios.StagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stagram.app/Stagram";
+			};
+			name = Release;
+		};
+		F4E434861CA65722004E4AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongriab.ios.StagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stagram;
+			};
+			name = Debug;
+		};
+		F4E434871CA65722004E4AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongriab.ios.StagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E434521CA65721004E4AFB /* Build configuration list for PBXProject "Stagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E4347D1CA65722004E4AFB /* Debug */,
+				F4E4347E1CA65722004E4AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E4347F1CA65722004E4AFB /* Build configuration list for PBXNativeTarget "Stagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E434801CA65722004E4AFB /* Debug */,
+				F4E434811CA65722004E4AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E434821CA65722004E4AFB /* Build configuration list for PBXNativeTarget "StagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E434831CA65722004E4AFB /* Debug */,
+				F4E434841CA65722004E4AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E434851CA65722004E4AFB /* Build configuration list for PBXNativeTarget "StagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E434861CA65722004E4AFB /* Debug */,
+				F4E434871CA65722004E4AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E4344F1CA65721004E4AFB /* Project object */;
+}
